@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/churnsystem.egg-info/PKG-INFO
+src/churnsystem.egg-info/SOURCES.txt
+src/churnsystem.egg-info/dependency_links.txt
+src/churnsystem.egg-info/requires.txt
+src/churnsystem.egg-info/top_level.txt

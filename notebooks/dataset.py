@@ -7,8 +7,6 @@ parent_dir = script_dir.parent
 sys.path.insert(0, str(parent_dir))
 
 from data_generator import raw_data
-dataset = raw_data
-
 import pandas as pd
 
 
@@ -74,4 +72,3 @@ def build_churn_snapshot_dataset(raw_data, snapshot_freq="7D", churn_window_days
     snapshot_df = pd.DataFrame(snapshot_rows)
 
     return snapshot_df
-print(build_churn_snapshot_dataset(dataset,snapshot_freq="7D", churn_window_days=14).head())
